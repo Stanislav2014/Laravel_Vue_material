@@ -25,4 +25,16 @@ class Member extends Model
         'subscribe',
         'on_vacation'
     ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+
+    protected $casts = [
+        'agree' => 'boolean',
+        'subscribe' => 'boolean',
+        'on_vacation' => 'boolean',
+    ];
 }
