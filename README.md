@@ -11,3 +11,5 @@
 - npm run watch
 
 - php artisan serve
+
+- enjoy ))
