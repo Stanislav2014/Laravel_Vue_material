@@ -10,11 +10,13 @@
 </head>
 <body>
 <div class="md-layout md-gutter">
+    <div class="md-layout-item md-size-25"></div>
     <div class="md-layout-item">
         <div id="app">
             <router-view></router-view>
         </div>
     </div>
+    <div class="md-layout-item md-size-25"></div>
 </div>
 
 <script src="{{ mix('js/app.js') }}"></script>
